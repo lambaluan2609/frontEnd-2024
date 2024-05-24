@@ -1,0 +1,17 @@
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu .ri-checkbox-circle-fill{
+    color: hsl(120, 91%, 35%);
+    margin-right: 5px
+    
+}
+
+.menu li{
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 8px;
+    font-size: 40px;
+}

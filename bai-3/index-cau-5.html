@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <form action="" method="get" target="_blank" autocomplete="on">
+        <label for="fullName">Name</label>
+        <br>
+        <input type="text" id="fullName" class="fullName" required>
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" id="email" class="email" required>
+        <br>
+        <label for="checkInDate">Ngay nhan phong</label>
+        <br>
+        <input type="date" class="checkInDate" id="checkInDate" required>
+        <br>
+        <label for="checkOutDate">Ngay nhan phong</label>
+        <br>
+        <input type="date" class="checkOutDate" id="checkOutDate" required>
+        <br>
+        <label for="roomType">Loai phong</label>
+        <br>
+        <select name="roomType" id="roomType" required>Loai phong
+            <option value="phong-thuong">Phong thuong</option>
+            <option value="phong-vip">Phong VIP</option>
+            <option value="phong-gia-dinh">Phong gia dinh</option>
+        </select>
+        <br>
+        <label for="specialRequest">Yeu cau dac biet</label>
+        <br>
+        <textarea name="specialRequest" id="specialRequest" rows="4"></textarea>
+        <br>
+        <br>
+        <button>Gui</button>
+    </form>
+</body>
+
+</html>
